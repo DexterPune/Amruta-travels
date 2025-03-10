@@ -101,7 +101,7 @@ import Seatertempo from './pages/17 Seater Tempo Traveller On Rent in Pune';
 function App() {
   return (
    
-    <Router>
+    <Router basename='/Amruta-travels'>
       <ScrollToTop/>
      <Header />
   <ContactButtons/>
