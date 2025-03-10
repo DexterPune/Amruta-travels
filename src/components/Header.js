@@ -140,7 +140,7 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active fw-bold" to="/blog" onClick={handleNavItemClick}>Blog</Link>
+                <Link className="nav-link active fw-bold" to="/blog" onClick={handleNavItemClick}>Blogs</Link>
               </li>
             </ul>
           </div>
