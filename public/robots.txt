@@ -1,0 +1,11 @@
+# Allow all search engines to access all content
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Allow all other directories
+Allow: /
+
+# Specify the location of your sitemap
+Sitemap: https://amrutatravel.com/sitemap.xml

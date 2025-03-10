@@ -1,0 +1,97 @@
+/* NewsCardList.css */
+
+.container-fluid {
+    padding: 0 15px;
+  }
+  
+  .row.g-4 {
+    margin: 0 -15px;
+  }
+  
+  .news-card-items {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .news-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .news-content {
+    padding: 10px;
+  }
+  
+  .news-cont span {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .news-cont h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .news-cont h3 a {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .news-cont h3 a:hover {
+    text-decoration: underline;
+    color: rgb(255, 69, 0,0.7);
+  }
+  
+  .news-cont p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li a {
+    /* color: #007bff; */
+    text-decoration: none;
+    font-size: 14px;
+    display: block !important;
+  }
+  
+  /* ul li a:hover {
+    text-decoration: underline;
+  } */
+  
+  ul li i {
+    margin-right: 5px;
+  }
+
+  /* Custom CSS for News Card */
+.news-card-items {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 20px;
+}
+
+.news-card-items:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+

@@ -1,0 +1,38 @@
+/* Terms and Conditions Styling */
+.terms-conditions-container {
+    padding: 40px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .bg-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .content {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .highlight {
+    color: #007bff;
+    font-weight: bold;
+  }
+  

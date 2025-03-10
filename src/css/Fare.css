@@ -1,0 +1,61 @@
+/* Overall container for the fare data display */
+.fare-data-display {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header for the main page */
+  .fare-data-display h1 {
+    font-size: 2rem;
+    color: #ec600f;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the individual table containers */
+  .fare-table-container {
+    margin-bottom: 40px;
+  }
+  
+  /* Table styles */
+  .fare-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  .darker{
+    color: #ec600f;
+  }
+  /* Table header styles */
+  .fare-table-container th {
+    background-color: #ec600f;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.1rem;
+  }
+  
+  /* Table cell styles */
+  .fare-table-container td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table row hover effect */
+  .fare-table-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .fare-table-container tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Heading style for each table */
+  .fare-table-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  

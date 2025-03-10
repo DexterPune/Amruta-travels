@@ -1,0 +1,39 @@
+.recent-trip {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .image-carousel {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 20px;
+  }
+  
+  .image-carousel img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 8px;
+  }
+  
+  .trip-summary {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
